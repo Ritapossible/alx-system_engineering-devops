@@ -1,3 +1,0 @@
-#!/bin/bash
-ls -al | sed '1,2d;s/./,./g' | sort -n | tr -d '\n'
-
