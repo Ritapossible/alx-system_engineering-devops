@@ -1,4 +1,5 @@
 #!/bin/bash
-printf '%x\n' $DECIMAL
 
-printf '%x\n' $DECIMAL
+DECIMAL=$1
+
+echo "obase=16; $DECIMAL" | bc
