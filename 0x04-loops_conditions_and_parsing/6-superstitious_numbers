@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#Creating a script that uses case statements
+y=1
+while [ $y -le 20 ]
+do
+    echo "$y"
+    case $y in
+	4)
+	    echo "bad luck from China"
+	    ;;
+	9)
+	    echo "bad luck from Japan"
+	    ;;
+	17)
+	    echo "bad luck from Italy"
+	    ;;
+    esac
+    ((y++))
+done
