@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Creating a script that uses if, else if and else statements
+y=1
+while [ $y -le 10 ]
+do
+	if [ $y -eq 4 ]
+	then
+	    echo "bad luck"
+	elif [ $y -eq 8 ]
+	then
+	    echo "good luck"
+       	else
+	    echo "Best School"
+	fi
+	((y++))
+done
