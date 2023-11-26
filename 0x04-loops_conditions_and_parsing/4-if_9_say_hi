@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Creating a script that uses an if statement
+y=1
+while [ $y -le 10 ]
+do
+    echo "Best School"
+    if [ $y -eq 9 ]
+    then
+	echo "Hi"
+    fi
+    ((y++))
+done
